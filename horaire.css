@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    /* z-index: 999; */
+    height: 9%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-shadow:-8px 0px 20px 4px hsl(0 4% 15% / 10%);
+    border-top: solid blue;
+
+}
+header a{
+    text-decoration: none;
+    font-size: 1.6em;
+    color: rgb(37, 37, 254);
+    padding: auto;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.content img{
+    position: relative;
+    left: 16%;
+    opacity: 60%;
+}
+.sect{
+    position: absolute;
+    left: 11%;
+    width: 554px;
+    top: 26%;
+    transform: translate(50% 50%);
+    /* padding-left: 79px; */
+    background-color: #ffffff;
+    height: 59%;
+    box-shadow: -8px -2px 20px 13px hsl(0 4% 15% / 10%);
+    /* padding: 57px; */
+}
+.sect h2{
+    text-align: center;
+    padding: 12px;
+    font-size: 3.6em;
+    font-weight: 700;
+    color: #BFDCE5;
+}
+#slect{
+    align-items: center;
+    position: relative;
+    padding: 11px 18px;
+}
+.horairep li.ac {
+    background: #eeefff;
+    list-style-type: none;
+}
+.horairep li {
+    padding: 2px 6px;
+    font-size: 16px;
+    margin: 2px 9px;
+    list-style-type: none;
+    line-height: 30px;
+    width: 531px;
+}
+.horairep li label {
+    font-weight: 400;
+    width:53%;
+}
+.datepreiere {
+    font-size: 1.4rem;
+    padding: 14px 0px;
+    color: #0048a6;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
